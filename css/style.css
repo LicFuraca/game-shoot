@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #242424;
+}
+
+.score-container {
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    position: fixed;
+
+    font-size: 14px;
+    color: #fff;
+    pointer-events: none;
+}
+
+.modal {
+    position: fixed;
+    inset: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-container {
+    padding: 1rem 7rem;
+    background-color: #f2f2f2;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.modal-score {
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 0;
+}
+
+.modal-container span {
+    color: #3e3b3b;
+}
+
+.modal-container .actions {
+    margin-top: 1.5rem;
+}
+
+.modal-container .actions button {
+    padding: 0.6rem 1.5rem;
+    background-color: #671c85;
+    border: none;
+    color: #f2f2f2;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.modal-container .actions button:hover,
+.modal-container .actions button:focus,
+.modal-container .actions button:active {
+    background-color: rgba(51, 13, 66, 70);
+}
